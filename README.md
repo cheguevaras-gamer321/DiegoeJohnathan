@@ -1,0 +1,1 @@
+Orelha do Trump

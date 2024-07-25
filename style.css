@@ -2,7 +2,7 @@
 
 :root{
     --cor-de-fundo: #1e1e1e;
-    --verde: #6fff57;
+    --verde: #FF00CC;
     --branco: #ffffff;
     --botao-ativo: #3a375e;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -16,9 +16,6 @@ body{
 }
 
 
-
-
-
 .conteudo-principal{
     
     display: flex;
@@ -30,8 +27,6 @@ body{
     margin: 0 auto;
     
     }
-    
-    
     
 .titulo-pricipal{ 
     text-align: left;
@@ -57,4 +52,10 @@ body{
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
     
+    }
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+    .botoes{
+        display: block;
     }
